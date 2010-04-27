@@ -11,6 +11,6 @@ def scanfolder(directory)
 end
 
 `ls -d */`.each do |i|
-   scanfolder ("#{i}")
+   scanfolder ("#{i}.comp")
 end
 
